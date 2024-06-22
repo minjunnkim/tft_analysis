@@ -1,0 +1,19 @@
+python-dotenv
+requests
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+#tensorflow-probability
+# tf-agents[reverb]
+# tf-keras
+setuptools
+numba
+tf2onnx
+onnxruntime
+torch
+nvidia-pyindex
+tensorrt
+numba
