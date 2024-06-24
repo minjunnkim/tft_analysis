@@ -18,3 +18,4 @@ nvidia-pyindex
 tensorrt
 numba
 keras2onnx
+pycuda
