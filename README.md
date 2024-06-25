@@ -61,5 +61,65 @@ Run the preprocessing script:
 python src/data_preprocessing/preprocessing.py
 ```
 
+The processed match data will be saved in ``` data/processed/tft_match_data.csv ```
 
+## Exploratory Data Analysis and Feature Engineering
 
+Exploratory Data Analysis (EDA) involves understanding the data distribution, correlations, and feature engineering to create new meaningful features.
+
+### Steps:
+1. Load the processed data.
+2. Perform data cleaning and fill missing values.
+3. Analyze popular activated traits.
+4. Create new features such as num_activated_traits, total_unit_values, avg_unit_tiers, avg_unit_rarities.
+5. Save the engineered data.
+
+Run the EDA and feature engineering notebook: 
+```bash
+notebooks/eda/eda_feature_eng.ipynb 
+```
+
+The engineered data will be saved in ``` data/processed/tft_match_data_with_features.csv ```
+
+## Model Training
+Train a Deep Q-Network (DQN) agent to predict player performance based on the game features.
+
+### Steps:
+1. Define the TFT environment.
+2. Implement the DQN model using PyTorch.
+3. Train the model.
+4. Save the trained model.
+
+Run the model training notebook:
+```bash
+notebooks/model_training/train_model.ipynb
+```
+
+## Model Optimization, Inference, Comparison
+Optimize the trained PyTorch model using TensorRT for faster inference. Then, compare the performance of the PyTorch and TensorRT models across various metrics.
+
+### Steps:
+1. Convert the PyTorch model to ONNX format.
+2. Optimize the ONNX model using TensorRT.
+3. Allocate buffers and perform inference using TensorRT.
+
+### Comparison Metrics:
+- Throughput (inferences per second)
+- Memory usage (current and peak)
+- Latency (mean and standard deviation)
+- Power consumption
+- Accuracy comparison (mean absolute error and mean squared error)
+
+Run the model optimization notebook:
+```bash
+notebooks/model_optimizing/model_optimization.ipynb
+```
+
+## Conclusion
+
+This project demonstrates the end-to-end process of analyzing TFT post-game data, training a DQN agent, optimizing the model using TensorRT, and comparing performance metrics. The optimized TensorRT model shows improvements in throughput and latency, making it suitable for deployment in real-time systems.
+
+Feel free to contribute to this project by opening issues or submitting pull requests.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
