@@ -14,24 +14,20 @@ This project focuses on analyzing post-game data for Teamfight Tactics (TFT) usi
 ## Environment Setup
 
 Ensure you have the following dependencies installed:
-- Python 3.8 or later
-- PyTorch
-- TensorRT
-- PyCUDA
-- NumPy
-- pandas
-- matplotlib
-- seaborn
-- scikit-learn
-- onnx
-- onnxruntime
-- psutil
+- Python 3.8 or later (Used 3.11.9)
+- CUDA (Used, 11.8) : https://developer.nvidia.com/cuda-11-8-0-download-archive
+- TensorRT (Used, 10.1.0) : https://developer.nvidia.com/tensorrt/download/10x
+- cuDNN (Optional, 8.9.7) : https://developer.nvidia.com/rdp/cudnn-archive 
 
 You can install the dependencies using pip:
 
 ```bash
-pip install torch torchvision torchaudio tensorrt pycuda numpy pandas matplotlib seaborn scikit-learn onnx onnxruntime psutil
+pip install -r requirements.txt
 ```
+
+## Riot API
+
+Go to Riot Games Developer Website, https://developer.riotgames.com/, and obtain a Development API Key.
 
 Create an .env file and add in your RIOT_API_KEY:
 
@@ -41,11 +37,13 @@ RIOT_API_KEY = "ENTER YOUR RIOT API KEY HERE"
 
 ## Data Collection
 
-Run the collection script:
+Run the collection script with the Riot ID of the player you want to collect data from:
 
 ```bash
-python src/data_collection/data_collection.py <Riot ID> <Riot Tag>
+python src/data_collection/data_collection.py <Game Name> <Riot Tag>
 ```
+
+The match data files in .json format will be saved under ``` data/raw/ ```
 
 ## Data Preprocessing
 

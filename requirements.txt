@@ -1,21 +1,148 @@
-python-dotenv
-requests
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-tensorflow
-#tensorflow-probability
-# tf-agents[reverb]
-# tf-keras
-setuptools
-numba
-tf2onnx
-onnxruntime
-torch
-nvidia-pyindex
-tensorrt
-numba
-keras2onnx
-pycuda
+absl-py==2.1.0
+appdirs==1.4.4
+asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1698341106958/work
+astunparse==1.6.3
+Brotli @ file:///C:/b/abs_3d36mno480/croot/brotli-split_1714483178642/work
+cachetools==5.3.3
+certifi @ file:///C:/b/abs_55jxithrm3/croot/certifi_1717618077850/work/certifi
+chardet==5.2.0
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+cloudpickle==3.0.0
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
+coloredlogs==15.0.1
+comm @ file:///home/conda/feedstock_root/build_artifacts/comm_1710320294760/work
+contourpy==1.2.1
+cuda-python @ file:///C:/ProgramData/miniconda3/conda-bld/cuda-python_1676970869796/work
+cycler==0.12.1
+debugpy @ file:///D:/bld/debugpy_1707444544473/work
+decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1641555617451/work
+distlib==0.3.8
+dm-tree==0.1.8
+exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1704921103267/work
+executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1698579936712/work
+filelock @ file:///C:/b/abs_f2gie28u58/croot/filelock_1700591233643/work
+fire==0.6.0
+flatbuffers==24.3.25
+fonttools==4.53.0
+fsspec==2024.6.0
+gast==0.5.4
+gin-config==0.5.0
+gmpy2 @ file:///C:/ci_311/gmpy2_1677743390134/work
+google-pasta==0.2.0
+grpcio==1.64.1
+gym==0.23.0
+gym-notices==0.0.8
+h5py==3.11.0
+humanfriendly==10.0
+idna @ file:///C:/b/abs_aad84bnnw5/croot/idna_1714398896795/work
+importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1718916706452/work
+intel-openmp==2021.4.0
+ipykernel @ file:///D:/bld/ipykernel_1717717683217/work
+ipython @ file:///D:/bld/ipython_1717182928131/work
+jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1696326070614/work
+Jinja2 @ file:///C:/b/abs_92fccttino/croot/jinja2_1716993447201/work
+joblib==1.4.2
+jupyter_client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1716472197302/work
+jupyter_core @ file:///D:/bld/jupyter_core_1710257313664/work
+keras==3.3.3
+keras2onnx==1.7.0
+kiwisolver==1.4.5
+libclang==18.1.1
+llvmlite==0.43.0
+Mako @ file:///C:/ci_311/mako_1676442613377/work
+Markdown==3.6
+markdown-it-py==3.0.0
+MarkupSafe @ file:///C:/b/abs_ecfdqh67b_/croot/markupsafe_1704206030535/work
+matplotlib==3.9.0
+matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1713250518406/work
+mdurl==0.1.2
+mkl==2021.4.0
+mkl-fft==1.3.1
+mkl-random @ file:///C:/ci_311/mkl_random_1676481991689/work
+mkl-service==2.4.0
+ml-dtypes==0.3.2
+mpmath @ file:///C:/b/abs_7833jrbiox/croot/mpmath_1690848321154/work
+namex==0.0.8
+nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1705850609492/work
+networkx @ file:///C:/b/abs_3bxnu56g9d/croot/networkx_1717597507456/work
+numba==0.60.0
+numpy @ file:///C:/b/abs_54abayvc9j/croot/numpy_and_numpy_base_1682520598361/work
+nvidia-cuda-runtime-cu12==12.5.39
+nvidia-pyindex==1.0.9
+onnx==1.16.1
+onnxconverter-common==1.14.0
+onnxruntime==1.18.0
+opt-einsum==3.3.0
+optree==0.11.0
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1718189413536/work
+pandas==2.2.2
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1712320355065/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+pillow @ file:///C:/b/abs_95ls_qh4c2/croot/pillow_1714398870615/work
+platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1715777629804/work
+pluggy==1.5.0
+prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1718047967974/work
+protobuf==4.25.3
+psutil @ file:///D:/bld/psutil_1705722591889/work
+pure-eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1642875951954/work
+pycuda @ file:///D:/bld/pycuda_1704570922003/work
+pygame==2.1.3
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1714846767233/work
+pyparsing==3.1.2
+pyproject-api==1.7.1
+pyreadline3==3.4.1
+PySocks @ file:///C:/ci_311/pysocks_1676425991111/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1709299778482/work
+python-dotenv==1.0.1
+pytools @ file:///home/conda/feedstock_root/build_artifacts/pytools_1717811874730/work
+pytz==2024.1
+pywin32==306
+PyYAML @ file:///C:/b/abs_782o3mbw7z/croot/pyyaml_1698096085010/work
+pyzmq @ file:///D:/bld/pyzmq_1715024524369/work
+requests @ file:///C:/b/abs_9c5n24p1y7/croot/requests_1716902867639/work
+rich==13.7.1
+scikit-learn==1.5.0
+scipy==1.13.1
+seaborn==0.13.2
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1669632077133/work
+sympy==1.12.1
+tbb==2021.13.0
+tensorboard==2.16.2
+tensorboard-data-server==0.7.2
+tensorflow==2.16.1
+tensorflow-intel==2.16.1
+tensorflow-io-gcs-filesystem==0.31.0
+tensorflow-probability==0.23.0
+tensorrt==10.1.0
+tensorrt-cu12==10.1.0
+tensorrt-cu12_bindings==10.1.0
+tensorrt-cu12_libs==10.1.0
+tensorrt_dispatch==10.1.0
+tensorrt_dispatch-cu12==10.1.0
+tensorrt_dispatch-cu12_bindings==10.1.0
+tensorrt_dispatch-cu12_libs==10.1.0
+tensorrt_lean==10.1.0
+tensorrt_lean-cu12==10.1.0
+tensorrt_lean-cu12_bindings==10.1.0
+tensorrt_lean-cu12_libs==10.1.0
+termcolor==2.4.0
+tf-agents==0.12.0
+tf2onnx==1.16.1
+tf_keras==2.16.0
+threadpoolctl==3.5.0
+torch==2.3.1
+torchaudio==2.3.1
+torchvision==0.18.1
+tornado @ file:///D:/bld/tornado_1717722835987/work
+tox @ git+https://github.com/tox-dev/tox.git@cf8db09e22a8cad11cc42c78216d4cc74fb63c6a
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1713535121073/work
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1717802530399/work
+tzdata==2024.1
+urllib3 @ file:///C:/b/abs_a7hvzm4y95/croot/urllib3_1718912661242/work
+virtualenv==20.26.3
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1704731205417/work
+Werkzeug==3.0.3
+win-inet-pton @ file:///C:/ci_311/win_inet_pton_1676425458225/work
+wrapt==1.16.0
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1718013267051/work
